@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vegas Restaurant - Minna, Niger State</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #b22222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #8b0000;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #a52a2a;
+    }
+    .hero {
+      background-image: url('https://via.placeholder.com/1200x400?text=Vegas+Restaurant');
+      height: 350px;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px black;
+    }
+    .section {
+      padding: 40px;
+      text-align: center;
+    }
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .menu-item {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vegas Restaurant</h1>
+    <p>Delicious Food & Catering Services in Minna, Niger State</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#catering">Catering</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Welcome to Vegas Restaurant
+  </div>
+
+  <section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <h3>Jollof Rice</h3>
+        <p>₦1,500</p>
+      </div>
+      <div class="menu-item">
+        <h3>Fried Rice & Chicken</h3>
+        <p>₦2,500</p>
+      </div>
+      <div class="menu-item">
+        <h3>Pounded Yam & Egusi</h3>
+        <p>₦2,000</p>
+      </div>
+      <div class="menu-item">
+        <h3>Shawarma</h3>
+        <p>₦1,800</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="catering" class="section">
+    <h2>Catering Services</h2>
+    <p>We provide catering services for weddings, birthdays, corporate events, and private parties within Minna and surrounding areas.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>📍 Location: Minna, Niger State, Nigeria</p>
+    <p>📞 Phone: +234 800 000 0000</p>
+    <p>📧 Email: info@vegasrestaurant.ng</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vegas Restaurant. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
